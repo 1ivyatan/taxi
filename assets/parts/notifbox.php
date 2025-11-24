@@ -1,0 +1,21 @@
+
+
+<div aria-live="polite" aria-atomic="true" class="position-relative">
+  <!-- Position it: -->
+  <!-- - `.toast-container` for spacing between toasts -->
+  <!-- - `top-0` & `end-0` to position the toasts in the upper right corner -->
+  <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+    <div class="toast-container top-0 p-3 start-50 translate-middle-x position-fixed">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="notifBoxTemplate">
+            <div class="d-flex fs-4">
+                <div class="toast-body">
+                    <span class="rounded me-2" >
+                        <i class="fa-solid fa-square" id="notifBoxColor"></i>
+                    </span>
+                    <strong class="me-auto" id="notifboxText"></strong>
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+</div>
