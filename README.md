@@ -16,4 +16,5 @@ Taxi service (made as a part of assignment).
 * Configure database in `db/` Directory
     * `init.sql` Initiate table and root user creation
         * Username, password: `admin`
+        * Run this query on the database
     * `credentials.php` Database connection credentials
